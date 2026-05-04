@@ -25,7 +25,7 @@ st.markdown("Visualisasi data jualan mengikut daerah, tarif dan produk")
 
 @st.cache_data
 def load_data():
-    file_path = "Sale By District Tariff.xlsx"
+    file_path = "D:\Downloads\Sale By District Tariff.xlsx"
 
     if not Path(file_path).exists():
         st.error("Excel file tidak dijumpai. Pastikan fail berada dalam folder yang sama.")
